@@ -2,253 +2,106 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Epam Times</title>
+  <title>Page with CSS</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
 <body>
-<table border="1" width="100%" cellpadding="0" cellspacing="0">
-  <!-- Top panel -->
-  <tr>
-    <td width="200">
-      <a href="Resources/logo.png" target="_blank">
-        <img src="Resources/logo.png" width="200">
-      </a>
-    </td>
-    <td>
-      <h1 align="center">
-        Epam Times
-      </h1>
-    </td>
-    <td width="100" height="100">
-      <p align="center">
-        <img src="Resources/menu.png" height="60" align="center">
+  <div id="wrapper">
+    <nav>
+      <ul class="top-menu">
+        <li class="active">Home</li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Solutions</a></li>
+        <li><a href="">Support</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div id="heading"></div>
+    <aside>
+      <nav>
+        <ul class="aside-menu">
+          <li><img src="Resources/fff.png"/></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Solutions</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate eleifend aliquet. Pellentesque vehicula,
+        leo id laoreet cursus, magna elit finibus nulla, in maximus risus nisl et magna. Vestibulum nulla augue,
+        molestie eget orci in, facilisis consectetur diam. Nullam vel magna malesuada, pretium libero sodales, elementum
+        lectus. Cras ante est, aliquam auctor auctor vel, maximus vel mi. Duis bibendum id urna vitae blandit.
       </p>
-    </td>
-  </tr>
-
-  <!-- Main part of page -->
-  <tr valign="top">
-    <!-- Left panel -->
-    <td>
-      <!-- First list -->
-      <table width="200">
+      <table class="table" cellpadding="0" cellspacing="0" border="1">
         <tr>
-          <td bgcolor="aqua">
-            <h2 align="center">
-              Link list 1
-            </h2>
-          </td>
+          <th rowspan="2">id</th>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Price</th>
         </tr>
         <tr>
-          <td>
-            <dl>
-              <dd><a href="">Lorem</a></dd>
-              <dd><a href="">Ipsum</a></dd>
-              <dd><a href="">Dolor</a></dd>
-              <dd><a href="">Sit</a></dd>
-              <dd><a href="">Amet</a></dd>
-              <dd><a href="">Consectetur</a></dd>
-            </dl>
-          </td>
+          <th>NET</th>
+          <th>GROSS</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>The quick, brown fox jumps over the lazy dog</td>
+          <td>12</td>
+          <td>34</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>The quick, brown fox jumps over the lazy dog</td>
+          <td>56</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>The quick, brown fox jumps over the lazy dog</td>
+          <td>910</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>The quick, brown fox jumps over the lazy dog</td>
+          <td>34</td>
+          <td>56</td>
         </tr>
       </table>
-      <!-- Second list -->
-      <table width="200">
-        <tr>
-          <td bgcolor="aqua">
-            <h2 align="center">
-              Link list 2
-            </h2>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dl>
-              <dd><a href="">Elit</a></dd>
-              <dd><a href="">Nunc</a></dd>
-            </dl>
-          </td>
-        </tr>
-      </table>
-    </td>
-
-    <!-- Center and right blocks -->
-    <td colspan="2" height="100%">
-      <table border="1" cellpadding="0" cellspacing="0" width="100%">
-        <tr align="top">
-          <!-- Center block -->
-          <td width="70%">
-            <table border="1" cellpadding="0" cellspacing="0" width="100%">
-              <tr align="top">
-                <!-- Center left text block -->
-                <td width="50%">
-                  <img src="Resources/no_image.png" width="150" align="left">
-                  <h2 align="center">
-                    <a href="">Lorem Ipsum</a>
-                  </h2>
-                  <i>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non ex
-                    quam. Nulla sit amet velit varius, rhoncus massa ac, consequat risus.
-                    Phasellus finibus pulvinar posuere. Proin condimentum nisi nibh,
-                    maximus eleifend metus pellentesque a. Cras nisi lacus, efficitur
-                    vitae mauris quis, accumsan scelerisque justo. Nullam nec massa quis
-                    sem ultrices maximus at et ex. Etiam faucibus ligula in lectus gravida,
-                    id ultrices augue viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur non ex quam. Nulla sit amet velit varius, rhoncus massa ac, consequat risus.
-                    Phasellus finibus pulvinar posuere. Proin condimentum nisi nibh,
-                    maximus eleifend metus pellentesque a. Cras nisi lacus, efficitur
-                    vitae mauris quis, accumsan scelerisque justo. Nullam nec massa quis
-                    sem ultrices maximus at et ex. Etiam faucibus ligula in lectus gravida,
-                    id ultrices augue viverra.
-                  </i>
-                </td>
-                <!-- Center right text block-->
-                <td width="50%">
-                  <img src="Resources/no_image.png" width="150" align="left">
-                  <h2 align="center">
-                    <a href="">Lorem Ipsum</a>
-                  </h2>
-                  <i>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non ex
-                    quam. Nulla sit amet velit varius, rhoncus massa ac, consequat risus.
-                    Phasellus finibus pulvinar posuere. Proin condimentum nisi nibh,
-                    maximus eleifend metus pellentesque a. Cras nisi lacus, efficitur
-                    vitae mauris quis, accumsan scelerisque justo. Nullam nec massa quis
-                    sem ultrices maximus at et ex. Etiam faucibus ligula in lectus gravida,
-                    id ultrices augue viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur non ex quam. Nulla sit amet velit varius, rhoncus massa ac, consequat risus.
-                    Phasellus finibus pulvinar posuere. Proin condimentum nisi nibh,
-                    maximus eleifend metus pellentesque a. Cras nisi lacus, efficitur
-                    vitae mauris quis, accumsan scelerisque justo. Nullam nec massa quis
-                    sem ultrices maximus at et ex. Etiam faucibus ligula in lectus gravida,
-                    id ultrices augue viverra.
-                  </i>
-                </td>
-              </tr>
-              <!-- Table block -->
-              <tr>
-                <td colspan="2" align="center">
-                  <table border="1" cellpadding="0" cellspacing="0" width="100%">
-                    <caption align="top">
-                      <font color="#5c0000" size="6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</font>
-                    </caption>
-                    <thead>
-                    <tr>
-                      <th><b>Lorem</b></th>
-                      <th><b>Ipsum</b></th>
-                      <th><b>Dolor</b></th>
-                      <th><b>Sit</b></th>
-                      <th><b>Amet</b></th>
-                      <th><b>Consectetur</b></th>
-                      <th><b>Adipiscing</b></th>
-                    </tr>
-                    </thead>
-                    <tr>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                    </tr>
-                    <tr>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                    </tr>
-                    <tr>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                    </tr>
-                    <tr>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                      <td>#######</td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-          <!-- Right block -->
-          <td width="30%">
-            <table border="1" cellspacing="0" cellpadding="0" width="100%">
-              <!-- Login box -->
-              <tr>
-                <td bgcolor="#d3d3d3">
-                  <form>
-                    <table width="100%" cellspacing="10" cellpadding="0">
-                      <tr>
-                        <td>
-                          <p>Login:</p>
-                          <input type="text" placeholder="Enter the login" name="login" required>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>Password:</p>
-                          <input type="password" placeholder="Enter the password" name="password" required>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <label>
-                            <input type="checkbox" checked="checked" name="remember">Remember me
-                          </label>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <input type="image" src="Resources/button.png" width="150">
-                        </td>
-                      </tr>
-                    </table>
-                  </form>
-                </td>
-              </tr>
-              <!-- Text block -->
-              <tr valign="top" height="100%">
-                <td width="50%">
-                  <img src="Resources/no_image.png" width="150" align="left">
-                  <h2 align="center">
-                    <a href="">Lorem Ipsum</a>
-                  </h2>
-                  <i>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non ex
-                    quam. Nulla sit amet velit varius, rhoncus massa ac, consequat risus.
-                    Phasellus finibus pulvinar posuere. Proin condimentum nisi nibh,
-                    maximus eleifend metus pellentesque a. Cras nisi lacus, efficitur
-                    vitae mauris quis, accumsan scelerisque justo. Nullam nec massa quis
-                    sem ultrices maximus at et ex. Etiam faucibus ligula in lectus gravida,
-                    id ultrices augue viverra.
-                  </i>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-
-  </tr>
-  <tr>
-    <td height="1" colspan="3">
-      © 2014 Основы HTML
-    </td>
-  </tr>
-</table>
+      <p>В середине 1990-х годов основные производители браузеров - компании
+        <a href="https://ru.wikipedia.org/wiki/Netscape_Communications">Netscape</a> и
+        <a href="https://www.microsoft.com/ru-ru/">Microsoft</a>
+      </p>
+      <ul class="browsers">
+        <li>Chrome</li>
+        <li>Firefox</li>
+        <li>Internet Explorer</li>
+        <ul>
+          <li>IE 8</li>
+          <li>IE 10</li>
+          <li>Edge</li>
+        </ul>
+        <li>.. другие</li>
+      </ul>
+    </section>
+    <footer>
+      <nav>
+        <ul class="footer-menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Solutions</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">Contact Us</a></li>
+          <p class="copyright">Copyright © All rights reserved</p>
+        </ul>
+      </nav>
+    </footer>
+  </div>
 </body>
 </html>
